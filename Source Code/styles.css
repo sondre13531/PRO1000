@@ -1,0 +1,24 @@
+.navbar {
+    margin: 0;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-links {
+    padding: 0 20px;
+    width: 25vw;
+    display: inline-block;
+    font-size: 2rem;
+    border-style: solid;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
