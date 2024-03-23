@@ -11,6 +11,7 @@
     display: inline-block;
     font-size: 2rem;
     border-style: solid;
+    
 }
 html{
     margin: 0;
@@ -19,6 +20,6 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(35, 37, 37);
     color: white;
 }
