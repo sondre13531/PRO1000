@@ -15,23 +15,39 @@
             height: 100px;
             background-color: lightgray;
         }
-        .box1{
+        .top{
+            justify-content: center;
             align-items: center;
+            background-color: rgb(230, 230, 230);
             width: 100%;
-            height: 300px;
+            height: 150px;
             display: flex;
-            background-color: green;
         }
-        .box2{
+        h1{
+            font-family: helvetica, sans-serif;
+            font-size: 40px;
+        }
+        h2{
+            font-family: helvetica, sans-serif;
+            font-size: 20px;
+            margin: 0;
+        }
+        .box{
             align-items: center;
             width: 100%;
-            height: 300px;
+            height: 350px;
             display: flex;
+        }
+        #box1{
+            background-color: green; 
+        }
+        #box2{
             background-color: lime;
         }
+        
         .box-image{
             height: 100%;
-            width: 60%;
+            width: 45%;
             background-color: rgb(230, 230, 230);
             overflow: hidden;
             
@@ -42,27 +58,41 @@
             line-height: 1.5;
             display: flex;
             align-items: center;
-            width: 50%;
+            width: 55%;
             height: 100%;
             background-color: rgb(230, 230, 230);
         }
         .text{
-            padding: 5%;
+            padding: 10%;
         }
         .bottom{
             height: 200px;
             width: 100%;
             background-color: lightgray;
+            padding-top: 10px;
         }
-        .img1{
+        .bottom-headers{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .bottom-boxes{
             width: 100%;
-            -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.5), transparent);
+            display: flex;
+            justify-content: space-around;
+        }
+      
+        .img{
+            width: 100%;
+            height: 100%;
+        }
+    
+        #img1{
+            -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.1), transparent);
              mask-image: linear-gradient(to left, rgba(0,0,0,10), transparent);
-        
         }
-        .img2{
-            width: 100%;
-            -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+        #img2{
+            -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.1), transparent);
              mask-image: linear-gradient(to right, rgba(0,0,0,10), transparent);
         }
         
@@ -72,10 +102,12 @@
 <body>
 
     <div class="header">Header</div>
-
-    <div class="box1">
+    <div class="top">
+        <h1>About Us</h1>
+    </div>
+    <div class="box" id="box1">
         <div class="box-text">
-            <div class="text">
+            <div class="text" id="text1">
                 <p> 
                     Welcome to (Company Name), where we redefine the concept of workspace flexibility. <br><br>  
                     Our mission is to revolutionize the way businesses and individuals utilize office spaces. 
@@ -89,15 +121,15 @@
             </div>
         </div>
         <div class="box-image">
-            <img class="img1" src="https://smallbusiness-staging.s3.amazonaws.com/uploads/2017/06/office-space-30617-scaled.jpeg"></img>  <!-- Image fades out on left side  -->
+            <img class="img" id="img1" src="https://smallbusiness-staging.s3.amazonaws.com/uploads/2017/06/office-space-30617-scaled.jpeg"></img>  <!-- Image fades out on left side  -->
         </div> 
     </div>
-    <div class="box2">
+    <div class="box" id="box2">
         <div class="box-image">
-            <img class="img2" src="https://www.wework.com/vanilla-assets/images/office_space.1626878991452b25c2667aacc832d5f3.jpg"></img>  <!-- Image fades out on right side -->
+            <img class="img" id="img2" src="https://www.wework.com/vanilla-assets/images/office_space.1626878991452b25c2667aacc832d5f3.jpg"></img>  <!-- Image fades out on right side -->
         </div>
         <div class="box-text">
-            <div class="text">
+            <div class="text" id="text2">
                 <p>At our firm, customers can expect: </p>
                 <ul>
                     <li>Flexible choices for office spaces that suit their needs.</li>
@@ -113,8 +145,24 @@
         </div> 
     </div>
     <div class="bottom">
-        <div>Staff</div>
-        <div>Contact info</div>
+        <div class="bottom-headers">
+            <h2>Contact Information</h2>
+            <h2>Follow Us</h2>
+        </div>
+        <div class="bottom-boxes">
+        
+            <div class="bottom-box-contact">
+                <div>Phone: +47 ### ## ###</div>
+                <div>Email: company@gmail.com</div>
+                <div>Address: -address-</div>
+            </div>
+            <div class="bottom-box-follow">
+                <div>Facebook: @company</div>
+                <div>Instagram: @company</div>
+                <div>Twitter/X: @company</div>
+            </div>
+
+        </div>
     </div>
     
 <script></script>
