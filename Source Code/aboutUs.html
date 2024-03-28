@@ -6,19 +6,50 @@
     <title>Document</title>
     <style>
 
+        
+        body{
+            margin: 0;
+        }
+        .header{
+            width: 100%;
+            height: 100px;
+            background-color: yellow;
+        }
         .box1{
             width: 100%;
+            height: 300px;
+            display: flex;
+            background-color: lime;
         }
-
+        .box2{
+            width: 100%;
+            height: 300px;
+            display: flex;
+            background-color: red;
+        }
+        .box-left{
+            width: 50%;
+            background-color: lime;
+        }
+        .box-right{
+            width: 50%;
+            background-color: pink;
+        }
+        .bottom{
+            height: 200px;
+            width: 100%;
+            background-color: cyan;
+        }
+        
 
     </style> 
 </head>
 <body>
 
-    <class>Header</class>
+    <div class="header">Header</div>
 
-    <div id="box1">
-        <div>
+    <div class="box1">
+        <div class="box-left">
             <p> 
                 Welcome to (Company Name), where we redefine the concept of workspace flexibility. <br> 
                 <br>
@@ -31,15 +62,15 @@
                 with us, because at (Company Name), excellence isn't just a goal, it's our standard.
             </p>
         </div>
-        <div>
+        <div class="box-right">
             <img id="img1">Image of office space</img>  <!-- Image fades out on left side  -->
         </div> 
     </div>
-    <div id="box1">
-        <div>
+    <div class="box2">
+        <div class="box-left">
             <img id="img2">Image of office building exterior</img>  <!-- Image fades out on right side -->
         </div>
-        <div>
+        <div class="box-right">
             <p>At our firm, customers can expect: </p><br>
             <br>
             <ul>
@@ -56,7 +87,7 @@
             </p>
         </div> 
     </div>
-    <div>
+    <div class="bottom">
         <div>Staff</div>
         <div>Contact info</div>
     </div>
