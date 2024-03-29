@@ -29,7 +29,7 @@
         }
         h2{
             font-family: helvetica, sans-serif;
-            font-size: 20px;
+            font-size: 25px;
             margin: 0;
         }
         .box{
@@ -48,7 +48,7 @@
         .box-image{
             height: 100%;
             width: 45%;
-            background-color: rgb(230, 230, 230);
+            background-color: rgb(240, 240, 240);
             overflow: hidden;
             
         }
@@ -60,19 +60,19 @@
             align-items: center;
             width: 55%;
             height: 100%;
-            background-color: rgb(230, 230, 230);
+            background-color: rgb(240, 240, 240);
         }
         .text{
             padding: 10%;
         }
         .bottom{
-            height: 200px;
+            height: 250px;
             width: 100%;
             background-color: lightgray;
             padding-top: 10px;
         }
         .bottom-headers{
-            margin-top: 30px;
+            margin-top: 40px;
             display: flex;
             justify-content: space-around;
         }
@@ -80,6 +80,22 @@
             width: 100%;
             display: flex;
             justify-content: space-around;
+        }
+   
+        .bottom-box{
+            line-height: 1.5;
+            font-family: Calibri;
+            font-size: 20px;
+            margin-top: 20px;
+            display: flex;
+            height: 100%;
+        }
+        .bottom-box-media{
+            width: 45%;
+            padding-right: 30%;
+        }
+        .bottom-box-account{
+            width: 55%;
         }
       
         .img{
@@ -149,17 +165,34 @@
             <h2>Contact Information</h2>
             <h2>Follow Us</h2>
         </div>
+
         <div class="bottom-boxes">
-        
-            <div class="bottom-box-contact">
-                <div>Phone: +47 ### ## ###</div>
-                <div>Email: company@gmail.com</div>
-                <div>Address: -address-</div>
+
+            <div class="bottom-box" id="contact">
+                <div class="bottom-box-media">
+                    <div>Phone:</div>
+                    <div>Email:</div>
+                    <div>Address:</div>
+                </div>
+                <div class="bottom-box-account">
+                    <div>+47 ### ## ###</div>
+                    <div>company@gmail.com</div>
+                    <div>address</div>
+                </div>
             </div>
-            <div class="bottom-box-follow">
-                <div>Facebook: @company</div>
-                <div>Instagram: @company</div>
-                <div>Twitter/X: @company</div>
+
+
+            <div class="bottom-box" id="follow">
+                <div class="bottom-box-media">
+                    <div>Facebook:</div>
+                    <div>Instagram:</div>
+                    <div>Twitter/X:</div>
+                </div>
+                <div class="bottom-box-account">
+                    <div>@account</div>
+                    <div>@account</div>
+                    <div>@account</div>
+                </div>
             </div>
 
         </div>
