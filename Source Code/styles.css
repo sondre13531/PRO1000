@@ -40,6 +40,7 @@ h2{
     border-radius: 4px;
 }
 .header{
+    font-family: Arial, Helvetica, sans-serif;;
     background-color: lightgrey;
     color: white;
     padding: 10px;
@@ -88,4 +89,11 @@ h2{
     height: 10%;
     background-color: lightgray;
     color: black;
+}
+.banner{
+    width: 20%;
+    background-color: rgb(56, 61, 59);
+    color: white;
+    margin-left: 50px;
+    margin-top: 5%;
 }
