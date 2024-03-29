@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .infobox {
+            margin: 2rem;
+            padding: 1rem;
+            background-color: darkslategray;
+            border-radius: 6px;
+        }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <ul>
+            <li class="logo"><img src="logo.png" alt="Not Available"></li>
+            <li><a href="landingPage.html">Landing Page</a></li>
+            <li><a href="floorPlan.html">Floor plan</a></li>
+            <li class="active">Membership</li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            </ul>
+        </header>
+        <div class="infobox">
+            <h1>Registrer deg</h1>
+            <p>Her kan du skrive inn for for å registrere deg</p>
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </body>
 </html>
