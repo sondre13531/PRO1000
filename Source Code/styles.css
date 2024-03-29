@@ -5,8 +5,7 @@ html, body{
     display: flex;
     flex-direction: column;
     min-height: 120vh; /* makes the page minimum 100% of the viewport height */
-    background-color: rgb(56, 61, 59);
-    color: white;
+    background-color: rgb(240, 240, 240);
 }
 h1{
     font-family: helvetica, sans-serif;
