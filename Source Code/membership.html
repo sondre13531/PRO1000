@@ -6,35 +6,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-        *{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .infobox {
-            margin: 2rem;
-            padding: 1rem;
-            background-color: darkslategray;
-            border-radius: 6px;
-        }
+            .skjema {
+                color: white;
+                margin: 2rem;
+                padding: 1rem;
+                background-color: darkslategray;
+                border-radius: 6px;
+                align-items: center;
+            }
+            .skjema *{
+                font-family: Arial, Helvetica, sans-serif;
+            }
         </style>
     </head>
     <body>
         <header class="header">
             <ul>
-            <li class="logo"><img src="logo.png" alt="Not Available"></li>
-            <li><a href="landingPage.html">Landing Page</a></li>
-            <li><a href="floorPlan.html">Floor plan</a></li>
-            <li class="active">Membership</li>
-            <li><a href="aboutUs.html">About Us</a></li>
+                <li class="logo"><img src="logo.png" alt="Not Available"></li>
+                <li><a href="landingPage.html">Landing Page</a></li>
+                <li><a href="floorPlan.html">Floor plan</a></li>
+                <li class="active">Membership</li>
+                <li><a href="aboutUs.html">About Us</a></li>
             </ul>
         </header>
-        <div class="infobox">
-            <h1>Registrer deg</h1>
-            <p>Her kan du skrive inn for for å registrere deg</p>
+        <div class="skjema">
+            <h1>Register</h1>
+            <p>Register as a user and choose your membership</p>
+            <br>
             <form>
                 <label for="fname">First name:</label>
                 <input type="text" id="fname" name="fname"><br><br>
+
                 <label for="lname">Last name:</label>
                 <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="number">Phone number:</label>
+                <input type="number" id="number" name="number"><br><br>
+
+                <label for="subscription">Subscription</label>
+                <select name="subscription" id="subscription">
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                </select><br><br>
+                
                 <input type="submit" value="Submit">
             </form>
         </div>
