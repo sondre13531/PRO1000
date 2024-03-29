@@ -11,10 +11,12 @@
         body{
             margin: 0;
         }
+       
         .header{
-            width: 100%;
-            height: 100px;
-            background-color: rgb(190, 190, 190);
+            background-color: lightgrey;
+            color: white;
+            padding: 10px;
+            text-align: left; 
         }
         .top{
             justify-content: center;
@@ -112,13 +114,50 @@
             -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.1), transparent);
              mask-image: linear-gradient(to right, rgba(0,0,0,10), transparent);
         }
+        .logo img {
+            position: relative;
+            top: -20px;
+            width: 200px;
+            border-radius: 4px;
+        }
+        .header ul{
+            display: inline-flex;
+            margin: 50px;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        .header ul li{
+            list-style: none;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .header ul li a{
+            text-decoration: none;
+            color: rgb(55, 56, 45);
+        }
+        .header ul li a:hover{
+            color: rgb(6, 204, 243);
+        }
+        .header ul li.active, .header ul li.active:hover .active{
+            cursor: default;
+            color: rgb(57, 171, 194) !important;
+        }
         
 
     </style> 
 </head>
 <body>
 
-    <div class="header">Header</div>
+    <div class="header">
+        <ul>
+            <li class="logo"><img src="logo.png" alt="Not Available"></li>
+            <li><a href="landingPage.html">Landing Page</li>
+            <li><a href="floorPlan.html">Floor plan</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li class="active">About Us</li>
+            
+        </ul>
+    </div>
     <div class="top">
         <h1>About Us</h1>
     </div>
