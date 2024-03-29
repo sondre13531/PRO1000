@@ -1,17 +1,30 @@
-.navbar {
-    margin: 0;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+.header{
+    background-color: lightgrey;
+    color: white;
+    padding: 10px;
+    text-align: left;
 }
-.nav-links {
-    padding: 0 20px;
-    width: 25vw;
-    display: inline-block;
-    font-size: 2rem;
-    border-style: solid;
-    
+.header ul{
+    display: inline-flex;
+    margin: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.header ul li{
+    list-style: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(55, 56, 45);
+}
+.header ul li a:hover{
+    color: rgb(6, 204, 243);
+}
+.header ul li.active, .header ul li.active:hover .active{
+    cursor: default;
+    color: rgb(57, 171, 194) !important;
 }
 html{
     margin: 0;
