@@ -13,32 +13,87 @@
         .header{
             width: 100%;
             height: 100px;
-            background-color: yellow;
+            background-color: lightgray;
         }
-        .box1{
+        .top{
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(230, 230, 230);
             width: 100%;
-            height: 300px;
+            height: 150px;
             display: flex;
+        }
+        h1{
+            font-family: helvetica, sans-serif;
+            font-size: 40px;
+        }
+        h2{
+            font-family: helvetica, sans-serif;
+            font-size: 20px;
+            margin: 0;
+        }
+        .box{
+            align-items: center;
+            width: 100%;
+            height: 350px;
+            display: flex;
+        }
+        #box1{
+            background-color: green; 
+        }
+        #box2{
             background-color: lime;
         }
-        .box2{
-            width: 100%;
-            height: 300px;
+        
+        .box-image{
+            height: 100%;
+            width: 45%;
+            background-color: rgb(230, 230, 230);
+            overflow: hidden;
+            
+        }
+        .box-text{
+            font-family: Lato, sans-serif;
+            font-size: 95%;
+            line-height: 1.5;
             display: flex;
-            background-color: red;
+            align-items: center;
+            width: 55%;
+            height: 100%;
+            background-color: rgb(230, 230, 230);
         }
-        .box-left{
-            width: 50%;
-            background-color: lime;
-        }
-        .box-right{
-            width: 50%;
-            background-color: pink;
+        .text{
+            padding: 10%;
         }
         .bottom{
             height: 200px;
             width: 100%;
-            background-color: cyan;
+            background-color: lightgray;
+            padding-top: 10px;
+        }
+        .bottom-headers{
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .bottom-boxes{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+      
+        .img{
+            width: 100%;
+            height: 100%;
+        }
+    
+        #img1{
+            -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.1), transparent);
+             mask-image: linear-gradient(to left, rgba(0,0,0,10), transparent);
+        }
+        #img2{
+            -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0.1), transparent);
+             mask-image: linear-gradient(to right, rgba(0,0,0,10), transparent);
         }
         
 
@@ -47,49 +102,67 @@
 <body>
 
     <div class="header">Header</div>
-
-    <div class="box1">
-        <div class="box-left">
-            <p> 
-                Welcome to (Company Name), where we redefine the concept of workspace flexibility. <br> 
-                <br>
-                Our mission is to revolutionize the way businesses and individuals utilize office spaces. <br> 
-                Our network of carefully curated locations ensures that wherever you are, a productive <br>
-                workspace is within reach. What sets us apart is our dedication to delivering <br> 
-                unparalleled service, tailored solutions, and a user-friendly experience. <br> 
-                Whether you're a startup seeking a dynamic environment or a freelancer craving a <br> 
-                professional setting, we've got you covered. Experience the future of workspace solutions <br> 
-                with us, because at (Company Name), excellence isn't just a goal, it's our standard.
-            </p>
+    <div class="top">
+        <h1>About Us</h1>
+    </div>
+    <div class="box" id="box1">
+        <div class="box-text">
+            <div class="text" id="text1">
+                <p> 
+                    Welcome to (Company Name), where we redefine the concept of workspace flexibility. <br><br>  
+                    Our mission is to revolutionize the way businesses and individuals utilize office spaces. 
+                    Our network of carefully curated locations ensures that wherever you are, a productive 
+                    workspace is within reach. What sets us apart is our dedication to delivering 
+                    unparalleled service, tailored solutions, and a user-friendly experience. 
+                    Whether you're a startup seeking a dynamic environment or a freelancer craving a 
+                    professional setting, we've got you covered. Experience the future of workspace solutions  
+                    with us, because at (Company Name), excellence isn't just a goal, it's our standard.
+                </p>
+            </div>
         </div>
-        <div class="box-right">
-            <img id="img1">Image of office space</img>  <!-- Image fades out on left side  -->
+        <div class="box-image">
+            <img class="img" id="img1" src="https://smallbusiness-staging.s3.amazonaws.com/uploads/2017/06/office-space-30617-scaled.jpeg"></img>  <!-- Image fades out on left side  -->
         </div> 
     </div>
-    <div class="box2">
-        <div class="box-left">
-            <img id="img2">Image of office building exterior</img>  <!-- Image fades out on right side -->
+    <div class="box" id="box2">
+        <div class="box-image">
+            <img class="img" id="img2" src="https://www.wework.com/vanilla-assets/images/office_space.1626878991452b25c2667aacc832d5f3.jpg"></img>  <!-- Image fades out on right side -->
         </div>
-        <div class="box-right">
-            <p>At our firm, customers can expect: </p><br>
-            <br>
-            <ul>
-                <li>Flexible choices for office spaces that suit their needs.</li>
-                <li>Simple, adaptable arrangements without long-term leases.</li>
-                <li>Access to modern amenities like fast internet and well-equipped conference rooms.</li>
-                <li>Opportunities to connect with a community of professionals.</li>
-                <li>Clear pricing with no hidden fees.</li>
-                <li>Easy booking processes.</li>
-                <li>Excellent customer service to ensure a smooth experience.</li>
-            </ul>
-            <br>
-            We're here to provide the workspace solutions you need.
-            </p>
+        <div class="box-text">
+            <div class="text" id="text2">
+                <p>At our firm, customers can expect: </p>
+                <ul>
+                    <li>Flexible choices for office spaces that suit their needs.</li>
+                    <li>Simple, adaptable arrangements without long-term leases.</li>
+                    <li>Access to modern amenities like fast internet and well-equipped conference rooms.</li>
+                    <li>Opportunities to connect with a community of professionals.</li>
+                    <li>Clear pricing with no hidden fees.</li>
+                    <li>Easy booking processes.</li>
+                    <li>Excellent customer service to ensure a smooth experience.</li>
+                </ul>
+            <p>We're here to provide the workspace solutions you need.</p>
+            </div>
         </div> 
     </div>
     <div class="bottom">
-        <div>Staff</div>
-        <div>Contact info</div>
+        <div class="bottom-headers">
+            <h2>Contact Information</h2>
+            <h2>Follow Us</h2>
+        </div>
+        <div class="bottom-boxes">
+        
+            <div class="bottom-box-contact">
+                <div>Phone: +47 ### ## ###</div>
+                <div>Email: company@gmail.com</div>
+                <div>Address: -address-</div>
+            </div>
+            <div class="bottom-box-follow">
+                <div>Facebook: @company</div>
+                <div>Instagram: @company</div>
+                <div>Twitter/X: @company</div>
+            </div>
+
+        </div>
     </div>
     
 <script></script>
