@@ -7,28 +7,29 @@ html, body{
     min-height: 120vh; /* makes the page minimum 100% of the viewport height */
     background-color: rgb(35, 37, 37);
     color: white;
-  }
-  *{
+}
+*{
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-  }
-  .container{
+}
+.container{
     width: 100%;
     height: 100%;
     background-color: rgb(56, 61, 59);
-  }
-
+}
 .header{
     background-color: lightgrey;
     color: white;
     padding: 10px;
     text-align: left;
+    height:15vh;
 }
-
-
 .logo img {
+    position: relative;
+    top: -20px;
     width: 200px;
+    border-radius: 4px;
 }
 .header{
     background-color: lightgrey;
@@ -58,16 +59,6 @@ html, body{
     cursor: default;
     color: rgb(57, 171, 194) !important;
 }
-html{
-    margin: 0;
-    padding: 0;
-}
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(35, 37, 37);
-    color: white;
-}
 .reviews{
     position: relative;
     left: 55%;
@@ -78,15 +69,15 @@ body{
     text-align: center;
     border-radius: 10px;
     padding-bottom: 3px;
-  }
-  .reviews p {
+}
+.reviews p {
     margin-bottom: 1em; /* Adds space between paragraphs */
-  }
-  
-  .footer{
+}
+.footer{
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 10%;
-    background-color: lightgrey;
-  }
+    background-color: lightgray;
+    color: black;
+}
