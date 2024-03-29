@@ -8,18 +8,20 @@
       html, body{
         width: 100%;
         height: 100%;
+        min-height: 120vh; /* makes the page minimum 100% of the viewport height */
       }
     .header{
-      background-color: #333;
+      background-color: lightgrey;
       color: white;
       padding: 10px;
-      text-align: center;
+      text-align: left;
     }
-      *{
+    *{
         margin: 0;
         padding: 0;
         font-family: 'Times New Roman', Times, serif;
       }
+
       .container{
         width: 100%;
         height: 100%;
@@ -36,6 +38,14 @@
         margin: 0 10px;
         cursor: pointer;
       }
+      .header ul li a{
+        text-decoration: none;
+        color: rgb(55, 56, 45);
+      }
+      .header ul li a:hover{
+        color: rgb(6, 204, 243);
+      }
+
       .logo img{
         width: 30px;
         margin-top: -7px;
@@ -45,17 +55,41 @@
         color: rgb(57, 171, 194) !important;
       }
       .banner{
-        width: 80%;
-        height: 70%;
-        top: 25%;
-        left: 130px;
+        width: 40%;
+        height: 20%;
+        margin-top: 30px;
+        margin-left: 100px;
         color: white;
+      }
+
+      .reviews{
+        position: relative;
+        left: 55%;
+        width: 35%;
+        height: auto;
+        background-color: lightgray;
+        color: rgb(73, 65, 65);
+        text-align: center;
+        border-radius: 10px;
+        padding-bottom: 3px;
+      }
+      .reviews p {
+        margin-bottom: 1em; /* Adds space between paragraphs */
+      }
+      
+      .footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+        background-color: lightgrey;
+        color: black;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="header">
+      <header class="header">
         <ul>
           <li class="logo"><img src="" alt="Not Available"></li>
           <li class="active">Landing Page</li>
@@ -63,12 +97,29 @@
           <li><a href="membership.html">Membership</a></li>
           <li><a href="aboutUs.html">About Us</a></li>
         </ul>
-      </div>
+      </header>
       <div class="banner">
-        <div class="slogan"></div>
           <h1>(our slogan here)</h1>
           <p>(some text under slogan)</p>
       </div>
+      <div class="review-box">
+        <div class="reviews">
+          <h1>Reviews</h1>
+          <br>
+          <p>This service helped me get in contact with <br>
+          a lot of people that have helped my company expand
+        <br>I would recomend this service to everyone. 10/10</p>
+          <p>review 2</p>
+          <p>review 3</p>
+          <p>review 4</p>
+          <p>review 5</p>
+        </div>
+      </div>
+      <footer>
+        <div class="footer">
+          <p>© 2024 USN start</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
