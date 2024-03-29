@@ -90,3 +90,10 @@ h2{
     background-color: lightgray;
     color: black;
 }
+.banner{
+    width: 20%;
+    background-color: rgb(56, 61, 59);
+    color: white;
+    margin-left: 50px;
+    margin-top: 5%;
+}
