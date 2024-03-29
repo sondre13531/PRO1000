@@ -30,7 +30,7 @@ h2{
     color: white;
     padding: 10px;
     text-align: left;
-    height:15vh;
+    height:120px;
 }
 .logo img {
     position: relative;
@@ -96,11 +96,31 @@ h2{
     margin-top: 5%;
 }
 /* Membership */
+.infobox-wrapper{
+    color: white;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgb(195, 135, 23);
+    border-radius: 6px;
+    text-align: center;
+}
 .infobox{
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .infopanel{
-    
+    margin: 1rem;
+    width: 370px;
+    height: 55vh;
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 0.5rem;
+    background-image: linear-gradient(to bottom right, rgb(230, 220, 220), rgb(202, 196, 196))
+}
+.infopanel p{
+    padding: 1rem;
 }
 .skjema {
     color: white;
