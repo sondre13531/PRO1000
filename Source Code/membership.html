@@ -5,19 +5,6 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <style>
-            .skjema {
-                color: white;
-                margin: 2rem;
-                padding: 1rem;
-                background-color: darkslategray;
-                border-radius: 6px;
-                align-items: center;
-            }
-            .skjema *{
-                font-family: Arial, Helvetica, sans-serif;
-            }
-        </style>
     </head>
     <body>
         <header class="header">
@@ -29,9 +16,39 @@
                 <li><a href="aboutUs.html">About Us</a></li>
             </ul>
         </header>
+        <div class="infobox-wrapper">
+            <h1>Våre forskjellige tilbud</h1>
+            <div class="infobox">
+                <div class="infopanel">
+                    <h2><b>Office space</b></h2>
+                    <p>Benefit 1</p><br>
+                    <p>Benefit 2</p><br>
+                    <p>Benefit 3</p><br>
+                    <p>Benefit 4</p><br>
+                    <p>Benefit 5</p><br>
+                </div>
+                <div class="infopanel">
+                    <h2><b>Coworking</b></h2>
+                    <p>Benefit 1</p><br>
+                    <p>Benefit 2</p><br>
+                    <p>Benefit 3</p><br>
+                    <p>Benefit 4</p><br>
+                    <p>Benefit 5</p><br>
+                </div>
+                <div class="infopanel">
+                    <h2><b>Meeting room</b></h2>
+                    <p>Benefit 1</p><br>
+                    <p>Benefit 2</p><br>
+                    <p>Benefit 3</p><br>
+                    <p>Benefit 4</p><br>
+                    <p>Benefit 5</p><br>
+                </div>
+            </div>
+        </div>
+        
+
         <div class="skjema">
-            <h1>Register</h1>
-            <p>Register as a user and choose your membership</p>
+            <h1>Register as a user and choose your membership</h1>
             <br>
             <form>
                 <label for="fname">First name:</label>
@@ -45,12 +62,12 @@
 
                 <label for="subscription">Subscription</label>
                 <select name="subscription" id="subscription">
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                    <option value="Office space">Office space</option>
+                    <option value="Coworking">Coworking</option>
+                    <option value="Meeting room">Meeting room</option>
                 </select><br><br>
                 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Register">
             </form>
         </div>
     </body>
