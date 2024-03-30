@@ -1,73 +1,90 @@
-html, body{
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0;
     display: flex;
     flex-direction: column;
-    min-height: 120vh; /* makes the page minimum 100% of the viewport height */
+    min-height: 120vh;
+    /* makes the page minimum 100% of the viewport height */
     background-color: rgb(240, 240, 240);
 }
-h1{
+
+h1 {
     font-family: helvetica, sans-serif;
     font-size: 40px;
 }
-h2{
+
+h2 {
     font-family: helvetica, sans-serif;
     font-size: 25px;
     margin: 0;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: helvetica, serif;
 }
-.container{
+
+.container {
     width: 100%;
     height: 100%;
 }
-.header{
+
+.header {
     background-color: lightgrey;
     color: white;
     padding: 10px;
     text-align: left;
-    height:120px;
+    height: 120px;
 }
+
 .logo img {
     position: relative;
     top: -20px;
     width: 200px;
     border-radius: 4px;
 }
-.header{
-    font-family: Arial, Helvetica, sans-serif;;
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    ;
     background-color: lightgrey;
     color: white;
     padding: 10px;
     text-align: left;
 }
-.header ul{
+
+.header ul {
     display: inline-flex;
     margin: 50px;
     font-size: 20px;
     margin-left: 20px;
 }
-.header ul li{
+
+.header ul li {
     list-style: none;
     margin: 0 10px;
     cursor: pointer;
 }
-.header ul li a{
+
+.header ul li a {
     text-decoration: none;
     color: rgb(55, 56, 45);
 }
-.header ul li a:hover{
+
+.header ul li a:hover {
     color: rgb(6, 204, 243);
 }
-.header ul li.active, .header ul li.active:hover .active{
+
+.header ul li.active,
+.header ul li.active:hover .active {
     cursor: default;
     color: rgb(57, 171, 194) !important;
 }
-.reviews{
+
+.reviews {
     position: relative;
     left: 55%;
     width: 35%;
@@ -78,10 +95,13 @@ h2{
     border-radius: 10px;
     padding-bottom: 3px;
 }
+
 .reviews p {
-    margin-bottom: 1em; /* Adds space between paragraphs */
+    margin-bottom: 1em;
+    /* Adds space between paragraphs */
 }
-.footer{
+
+.footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -89,14 +109,16 @@ h2{
     background-color: lightgray;
     color: black;
 }
-.banner{
+
+.banner {
     width: 20%;
     color: rgb(0, 0, 0);
     margin-left: 50px;
     margin-top: 5%;
 }
+
 /* Membership */
-.infobox-wrapper{
+.infobox-wrapper {
     color: white;
     margin: 2rem;
     padding: 1rem;
@@ -104,12 +126,14 @@ h2{
     border-radius: 6px;
     text-align: center;
 }
-.infobox{
+
+.infobox {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.infopanel{
+
+.infopanel {
     margin: 1rem;
     width: 370px;
     height: 55vh;
@@ -119,9 +143,17 @@ h2{
     padding: 0.5rem;
     background-image: linear-gradient(to bottom right, rgb(230, 220, 220), rgb(202, 196, 196))
 }
-.infopanel p{
+
+.infopanel p {
     padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
+
+.infopanel:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 .skjema {
     color: white;
     margin: 2rem;
@@ -130,31 +162,40 @@ h2{
     border-radius: 6px;
     align-items: center;
 }
-.skjema *{
+
+.skjema * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .skjema label {
-    font-size:1.3rem;
-}          
+    font-size: 1.3rem;
+}
+
 /* Removes arrows on number input for Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
 /* Does the same for Firefox */
 input[type=number] {
     appearance: textfield;
 }
+
 input {
     width: 100%;
 }
-input[type=text], input[type="number"] {
+
+input[type=text],
+input[type="number"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border-radius: 4px;
 }
+
 select {
     width: 100%;
     padding: 16px 20px;
@@ -162,7 +203,10 @@ select {
     border-radius: 4px;
     background-color: #f1f1f1;
 }
-input[type=button], input[type=submit], input[type=reset] {
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
     background-color: rgb(37, 138, 86);
     border: none;
     color: white;
