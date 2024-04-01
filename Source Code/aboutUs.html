@@ -11,15 +11,15 @@
         body{
             margin: 0;
             padding: 0;
+            font-family: helvetica, serif;
         }
        
         .header{
             background-color: lightgrey;
             color: white;
-            padding: 10px;
+            padding: 10px 10px 10px 0;
             text-align: left;
             height: 120px;
-            font-family: helvetica, serif;
         
         }
         .top{
@@ -139,7 +139,7 @@
             display: inline-flex;
             margin: 50px;
             font-size: 20px;
-            margin-left: 20px;
+            margin-left: 0;
         }
         .header ul li{
             list-style: none;
@@ -153,10 +153,11 @@
         .header ul li a:hover{
             color: rgb(6, 204, 243);
         }
-        .header ul li.active, .header ul li.active:hover .active{
+        .header ul li.active, .header ul li.active:hover.active{
             cursor: default;
             color: rgb(57, 171, 194) !important;
         }
+
         #text3{
             padding: 0;
             height: 100%;
@@ -179,19 +180,20 @@
 </head>
 <body>
 
-    <div class="header">
+    <header class="header">
         <ul>
             <li class="logo"><img src="logo.png" alt="Not Available"></li>
             <li><a href="landingPage.html">Landing Page</li>
             <li><a href="floorPlan.html">Floor plan</a></li>
             <li><a href="membership.html">Membership</a></li>
             <li class="active">About Us</li>
-            
         </ul>
-    </div>
+    </header>
+
     <div class="top">
         <h1>About Us</h1>
     </div>
+
     <div class="box" id="box1">
         <div class="box-text">
             <div class="text" id="text1">
