@@ -52,11 +52,11 @@ h2 {
 }
 
 .header ul {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     width: 95vw;
-    margin: 50px;
+    margin: 20px 0 30px;
     font-size: 20px;
-    margin-left: 20px;
 }
 
 .header ul li {
@@ -68,6 +68,8 @@ h2 {
 .header ul li a {
     text-decoration: none;
     color: rgb(55, 56, 45);
+    width: 5vw;
+    height: 100%;
 }
 
 .header ul li a:hover {
@@ -82,9 +84,8 @@ h2 {
 
 .navbar-right {
     margin-left: auto !important;
-    width: 11vw;
+    width: 15vw;
     display: flex;
-    /*TODO: Allign this class to the right side of the navbar*/
 }
 
 .banner {
@@ -214,7 +215,7 @@ width: auto;
     padding: 10px 0 0 10px;
 }
 
-/* Membership */
+/* Membership, login, register */
 .infobox-wrapper {
     color: white;
     margin: 2rem;
