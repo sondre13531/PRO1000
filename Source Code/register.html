@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <ul>
+            <li class="logo"><img src="logo.png" alt="Not Available"></li>
+            <li><a href="landingPage.html">Landing Page</a></li>
+            <li><a href="floorPlan.html">Floor plan</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <div class="navbar-right">
+                <li class="active">Register</li>
+                <li><a href="login.html">Log in</a></li>
+            </div>
+        </ul>
+    </header>
+
+    <div class="skjema">
+        <h1>Register as a user and choose your membership</h1>
+        <br>
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="number">Phone number:</label>
+            <input type="number" id="number" name="number"><br><br>
+
+            <label for="password">E-mail:</label>
+            <input type="text" id="password" name="password"><br><br>
+
+            <label for="subscription">Subscription</label>
+            <select name="subscription" id="subscription">
+                <option value="Office space">Office space</option>
+                <option value="Coworking">Coworking</option>
+                <option value="Meeting room">Meeting room</option>
+            </select><br><br>
+            
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
