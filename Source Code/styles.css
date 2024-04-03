@@ -84,17 +84,16 @@ h2 {
     width: 100%;
     height: 30px;
     color: rgb(0, 0, 0);
-    margin-left: 4vh;
     margin-top: 2vh;
     text-align: center;
 }
 .hovedbilde{
     position: relative;
-    top: -40vh; 
+    top: -25vw; 
     width: auto;
     height: 40vh;
     border-radius: 10px;
-    margin-left: 30vw;
+    margin-left: 34vw;
 }
 .box-text{
     font-size: 95%;
@@ -107,12 +106,12 @@ h2 {
 }
 .review-box{
     position: absolute;
-    top: 25vh;
+    top: 35vh;
     width: 23vw; 
     height: 70%;
     background-color: rgb(171, 226, 213);
     border-radius: 1vh;
-    right: 5vh;
+    right: 2vw;
     overflow: scroll;
 }
 
@@ -135,7 +134,7 @@ h2 {
     position: relative;
     top: 9vh; 
     left: 2vw; 
-    width: 17vw; 
+    width: 23vw; 
     height: 50vh; 
     background-color: rgb(147, 170, 165);
     border-radius: 1vh;
