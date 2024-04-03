@@ -133,13 +133,14 @@ h2 {
 }
 .services{
     position: relative;
-    top: 9vh; /* Adjust this value as needed */
-    left: 2vw; /* Adjust this value as needed */
-    width: 17vw; /* Adjust this value as needed */
-    height: 40vh; /* Adjust this value as needed */
+    top: 9vh; 
+    left: 2vw; 
+    width: 17vw; 
+    height: 50vh; 
     background-color: rgb(147, 170, 165);
     border-radius: 1vh;
     text-align: center;
+    overflow: scroll;
 }
 
 .services ul li { 
