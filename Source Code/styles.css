@@ -104,7 +104,6 @@ h2 {
     height: 22rem;
     background-color: rgb(147, 170, 165);
     border-radius: 1vh;
-    overflow: scroll;
 }
 .services {
     text-align: center;
