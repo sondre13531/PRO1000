@@ -320,7 +320,7 @@ input[type=reset] {
 .a-box-image{
     height: 100%;
     width: 45%;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
     overflow: hidden;
     
 }
@@ -332,7 +332,8 @@ input[type=reset] {
     align-items: center;
     width: 55%;
     height: 100%;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(240, 240, 240);
+    overflow-y: scroll;
 }
 .a-text{
     padding: 10%;
