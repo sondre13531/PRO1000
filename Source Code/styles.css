@@ -107,11 +107,7 @@ h2 {
     overflow: scroll;
 }
 .services {
-    position: relative;
-    background-color: rgb(147, 170, 165);
-    border-radius: 1vh;
     text-align: center;
-    overflow: scroll;
     padding: 1em;
 }
 
