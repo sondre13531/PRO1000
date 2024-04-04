@@ -8,18 +8,24 @@
 </head>
 <body>
     <header class="header">
-        <ul>
-            <li class="logo"><img src="img/logo.png" alt="Not Available"></li>
-            <li><a href="landingPage.html">Landing Page</a></li>
-            <li><a href="floorPlan.html">Floor plan</a></li>
-            <li><a href="membership.html">Membership</a></li>
-            <li><a href="aboutUs.html">About Us</a></li>
-            <div class="navbar-right">
-                <li><a href="register.html">Register</a></li>
-                <li class="active">Log in</li>
-            </div>
+
+        <div class="logo"><img src="img/logo.png" alt="Not Available"></div>
+
+        <div id="header-buttons-left">
+
+            <a class="header-button" href="landingPage.html">Landing Page</a> 
+            <a class="header-button" href="floorPlan.html">Floor Plan</a>
+            <a class="header-button" href="membership.html">Membership</a>
+            <a class="header-button" href="aboutUs.html">About Us</a>
+
+        </div>
+        <div id="header-buttons-right">
+
+            <a class="header-button" href="register.html">Register</a>
+            <div class="header-button" id="header-button-active">Log In</div>
             
-        </ul>
+        </div>
+
     </header>
 
     <!-- TODO! add background text when textfield is empty -->
