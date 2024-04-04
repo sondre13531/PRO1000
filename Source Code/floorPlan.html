@@ -7,52 +7,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #fp{
+        #fp {
             text-align: center;
             padding: 20px
         }
-        h2{
+
+        .zaheading h2{
             padding: 20px;
             text-align: center;
+            font-size: 40px;
         }
-        .zonesAmenities{
+
+        .zonesAmenities {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
-            width:100%
+            width: 100%
         }
-        .zoneContainer{
-            width:90%;
+
+        .zoneContainer {
+            width: 90%;
             display: flex;
-            justify-content:space-around;
+            justify-content: space-around;
             margin-bottom: space-around;
-            border-radius: 10px; 
+            border-radius: 10px;
             padding-top: 25px;
             padding-bottom: 25px;
             border-bottom: 5px solid black;
+            height: 400px;
         }
-        .floorPlan img{
-            max-width: 100%;
-            height: auto;
-        }
-        .fpimg{
+        
+        .fpimg {
             max-width: 50%;
             height: auto;
+            width: 640px;
+            height: 360px;
         }
-        p{
+
+        .floorPlan p {
             font-size: 24px;
-            border-bottom: 5px solid black;
+            padding: 20px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 60%;
+        }
+
+        .zaheading p {
+            font-size: 32px;
             padding: 20px;
             text-align: center;
         }
-        .text{
-            font-size: 20px;
+
+        .left {
+            padding-right: 30px;
+        }
+
+        .right {
+            padding-left: 30px;
+        }
+
+        .text {
+            font-size: 32px;
             padding: 10px;
+        }
+        .floorPlanPage img{
+            border-radius: 1vh;
+        }
+        .floorPlanPage .floorPlan img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5vh;
         }
     </style>
 </head>
 
 <body>
+    <div class="floorPlanPage">
     <!--    header      -->
     <header class="header">
         <ul>
@@ -70,10 +101,10 @@
     <!--    floor plan section      -->
     <div class="floorPlan">
         <h1 id="fp">Floor Plan</h1>
-        <img src="img/boop.jpg"
-            alt="Image cannot be found." style="display: block;
+        <img src="img/boop.jpg" alt="Image cannot be found." style="display: block;
             margin-left: auto;
-            margin-right: auto;">
+            margin-right: auto;
+            padding: 50px">
         <p>
             As you can see, the USNStart team has fully fleshed out 500 square meters of collaborative coworking space.
             Made for students and professionals alike, we offer a wide range of amenities to help foster innovation and
@@ -82,78 +113,102 @@
         </p>
     </div>
     <!--    zones and amenities section      -->
+    <div class="zaheading">
     <h2>Zones and Amenities</h2>
     <p>
         The facility is split up into 7 sections, each serving an important function.
     </p>
+    </div>
     <div class="zonesAmenities">
         <div class="zoneContainer">
-            <div class="text">
-                Open Workspace: This is the heart of a coworking space, featuring flexible seating arrangements with communal desks,
-                tables, and chairs. It's suitable for individual work, informal meetings, and collaborative projects.
-                There is space for 60 individuals working here.
+            <div class="left">
+                <div class="text">
+                    Open Workspace: This is the heart of a coworking space, featuring flexible seating arrangements with
+                    communal desks,
+                    tables, and chairs. It's suitable for individual work, informal meetings, and collaborative
+                    projects.
+                    There is space for 60 individuals working here.
+                </div>
             </div>
-            <img class="fpimg" src="https://assets.oyoroomscdn.com/cmsMedia/large/ff7d4187-e22a-4d97-996d-b307919997db.jpg"
+            <img class="fpimg"
+                src="https://assets.oyoroomscdn.com/cmsMedia/large/ff7d4187-e22a-4d97-996d-b307919997db.jpg"
                 alt="Image not found.">
 
         </div>
         <br>
         <div class="zoneContainer">
-            <img class="fpimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSS-x6-cVR1p5TdBGHZvOx4R1Kbs7ozmwu9e8Zv-vSZyLOLjECJvXyaufz0egMHC9uESA&usqp=CAU"
+            <img class="fpimg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSS-x6-cVR1p5TdBGHZvOx4R1Kbs7ozmwu9e8Zv-vSZyLOLjECJvXyaufz0egMHC9uESA&usqp=CAU"
                 alt="Image not found.">
-            <div class="text">
-                Private offices: 6 small, fully-furnished offices that can accommodate individuals or small teams,
-                offering more privacy and a dedicated workspace.
+
+            <div class="right">
+                <div class="text">
+                    Private offices: 6 small, fully-furnished offices that can accommodate individuals or small teams,
+                    offering more privacy and a dedicated workspace.
+                </div>
             </div>
         </div>
         <br>
         <div class="zoneContainer">
-            <div class="text">
-                Meeting rooms: 5 meeting rooms of varying size equipped with projectors
-                and whiteboards for presentations, client meetings, or team discussions.
+            <div class="left">
+                <div class="text">
+                    Meeting rooms: 5 meeting rooms of varying size equipped with projectors
+                    and whiteboards for presentations, client meetings, or team discussions.
+                </div>
             </div>
-            <img class="fpimg" src="https://www.servcorp.com.sg/media/30477/shared-office-space.jpg" alt="Image not found.">
+            <img class="fpimg" src="https://www.servcorp.com.sg/media/30477/shared-office-space.jpg"
+                alt="Image not found.">
 
         </div>
         <br>
         <div class="zoneContainer">
             <img class="fpimg" src="https://www.delightoffice.com/wp-content/uploads/2018/09/Slika-4-4-1024x576-1.jpg"
                 alt="Image not found.">
-            <div class="text">
-                Lounge Area: Comfortable seating areas, providing a relaxed atmosphere for informal meetings or
-                relaxation.
+            <div class="right">
+                <div class="text">
+                    Lounge Area: Comfortable seating areas, providing a relaxed atmosphere for informal meetings or
+                    relaxation.
+                </div>
             </div>
         </div>
-        <br>                
+        <br>
         <div class="zoneContainer">
-            <div class="text">
-                Kitchen and Dining Area: A well-equipped kitchenette with facilities for preparing meals and dining.
-                It also offers complimentary coffee, tea, and snacks.
+            <div class="left">
+                <div class="text">
+                    Kitchen and Dining Area: A well-equipped kitchenette with facilities for preparing meals and dining.
+                    It also offers complimentary coffee, tea, and snacks.
+                </div>
             </div>
-            <img class="fpimg" src="https://croudaceconstructs.com.au/wp-content/uploads/2020/10/Designing-Your-Office-Kitchenette.png"
+            <img class="fpimg"
+                src="https://croudaceconstructs.com.au/wp-content/uploads/2020/10/Designing-Your-Office-Kitchenette.png"
                 alt="Image not found.">
         </div>
         <br>
         <div class="zoneContainer">
-            <img class="fpimg" src="https://www.shutterstock.com/image-photo/interior-modern-office-260nw-1111977749.jpg"
+            <img class="fpimg"
+                src="https://www.shutterstock.com/image-photo/interior-modern-office-260nw-1111977749.jpg"
                 alt="Image not found.">
-            <div class="text">
-                Printing and Scanning area: Equipment for printing, scanning, and photocopying documents.
+            <div class="right">
+                <div class="text">
+                    Printing and Scanning area: Equipment for printing, scanning, and photocopying documents.
+                </div>
             </div>
-        </div>    
+        </div>
         <br>
         <div class="zoneContainer">
-            <div class="text">
-                Game room: A recreational space with games like billiards, ping-pong, and video games,
-                encouraging breaks and social interaction.
+            <div class="left">
+                <div class="text">
+                    Game room: A recreational space with games like billiards, ping-pong, and video games,
+                    encouraging breaks and social interaction.
+                </div>
             </div>
-            <img class="fpimg" src="https://i.ytimg.com/vi/YISHZ8nH6fw/maxresdefault.jpg" alt="Image not found." >
+            <img class="fpimg" src="https://i.ytimg.com/vi/YISHZ8nH6fw/maxresdefault.jpg" alt="Image not found.">
 
-        </div>    
-            
+        </div>
+
     </div>
     <!--    footer      -->
-
+</div>
 </body>
 
 </html>
