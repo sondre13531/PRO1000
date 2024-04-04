@@ -145,7 +145,7 @@ h2 {
     background-color: rgb(171, 226, 213);
     border-radius: 1vh;
     margin: 0 2rem;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .reviews p {
