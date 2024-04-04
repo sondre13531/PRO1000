@@ -115,13 +115,10 @@ h2 {
 .hovedbilde {
     display: flex;
     height: 20rem;
-    width: 35rem;
+    width: 30rem;
     justify-content: center;
     overflow: hidden;
     margin: 4vh 2rem;
-}
-
-.hovedbilde img {
     border-radius: 1vh;
 }
 
@@ -137,7 +134,7 @@ h2 {
 
 .review-box {
     position: relative;
-    width: 21rem;
+    width: 20rem;
     height: 30rem;
     background-color: rgb(171, 226, 213);
     border-radius: 1vh;
@@ -159,7 +156,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 5vh;
+    height: 60vh;
     font-size: 2vh;
     cursor: default;
     padding-top: 4.5vh;
@@ -169,7 +166,7 @@ h2 {
 
 .building {
     width: 30rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
 }
 
 .footer {
@@ -188,7 +185,7 @@ h2 {
     color: white;
     margin: 2rem;
     padding: 1rem;
-    background-color: rgb(195, 135, 23);
+    background-color: rgb(118, 86, 101);
     border-radius: 6px;
     text-align: center;
 }
