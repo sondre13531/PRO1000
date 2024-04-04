@@ -162,7 +162,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 5vh;
+    height: 60vh;
     font-size: 2vh;
     cursor: default;
     padding-top: 4.5vh;
@@ -172,7 +172,7 @@ h2 {
 
 .building {
     width: 30rem;
-    margin-bottom: 10rem;
+    margin-bottom: 100rem;
 }
 
 .footer {
@@ -191,7 +191,7 @@ h2 {
     color: white;
     margin: 2rem;
     padding: 1rem;
-    background-color: rgb(195, 135, 23);
+    background-color: rgb(118, 86, 101);
     border-radius: 6px;
     text-align: center;
 }
