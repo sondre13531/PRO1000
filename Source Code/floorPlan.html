@@ -73,6 +73,7 @@
         .text {
             font-size: 24px;
             padding: 10px;
+            width: 30rem;
         }
         .floorPlanPage .floorPlan img {
             max-width: 100%;
@@ -87,21 +88,28 @@
 </head>
 
 <body>
-    <div class="floorPlanPage">
     <!--    header      -->
     <header class="header">
-        <ul>
-            <li class="logo"><img src="img/logo.png" alt="Not Available"></li>
-            <li><a href="landingPage.html">Landing Page</a></li>
-            <li class="active">Floor plan</li>
-            <li><a href="membership.html">Membership</a></li>
-            <li><a href="aboutUs.html">About Us</a></li>
-            <div class="navbar-right">
-                <li><a href="register.html">Register</a></li>
-                <li><a href="login.html">Log in</a></li>
-            </div>
-        </ul>
+
+        <div class="logo"><img src="img/logo.png" alt="Not Available"></div>
+
+        <div id="header-buttons-left">
+
+            <a class="header-button" href="landingPage.html">Landing Page</a> 
+            <div class="header-button" id="header-button-active">Floor Plan</div>
+            <a class="header-button" href="membership.html">Membership</a>
+            <a class="header-button" href="aboutUs.html">About Us</a>
+
+        </div>
+        <div id="header-buttons-right">
+
+            <a class="header-button" href="register.html">Register</a>
+            <a class="header-button" href="login.html">Log In</a>
+
+        </div>
+
     </header>
+    <div class="floorPlanPage">
     <!--    floor plan section      -->
     <div class="floorPlan">
         <h1 id="fp">Floor Plan</h1>
