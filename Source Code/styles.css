@@ -58,6 +58,10 @@ h2 {
 .header-button:hover{
     background-color: rgb(190, 190, 190);
 }
+.logo-button
+.logo-button-landing{
+    margin-left: 10px;
+}
 .logo-button:hover{
     background-color: rgb(190, 190, 190);
 }
@@ -69,6 +73,9 @@ h2 {
     color: rgb(136, 6, 6)
 }
 
+.logo{
+    margin-left: 15px;
+}
 .logo img {
     top: -25px;
     width: 175px;
