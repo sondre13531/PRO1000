@@ -58,6 +58,10 @@ h2 {
 .header-button:hover{
     background-color: rgb(190, 190, 190);
 }
+.header-button:active{
+    color: white;
+}
+
 #header-button-active{
     color: rgb(136, 6, 6)
 }
