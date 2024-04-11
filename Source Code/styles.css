@@ -61,7 +61,11 @@ h2 {
         margin-left: 15vw;
     }
 }
-
+@media (max-width: 950px){
+    #header-buttons-right{
+        margin-left: 10vw;
+    }
+}
 
 
 .header-button{
@@ -430,27 +434,30 @@ input[type=reset] {
 }
 
 .a-footer-box{
+    width: 300px;
     line-height: 1.75;
     font-family: Calibri;
     font-size: 25px;
-    margin-top: 20px;
+    margin: 50px 35px 20px 10px;
     padding-bottom: 5vh;
+    display: flex;
+}
+@media (max-width: 500px) {
+    .a-footer-box{
+        font-size: 20px;
+    }
 }
 
-#a-follow{
-    display: flex;
-    margin-right: 35px;
+.a-footer-header{
+    position: absolute;
+    text-align: center;
+    height: 5;
 }
 
 .a-footer-box-contact{
-    width: 10rem;
-    margin-right: 2vw;
-}
-
-.a-footer-box-social{
-    width: 10rem;
-    margin-right: 2vw;
     margin-top: 6vh;
+    width: 10rem;
+    margin-right: 3vw;
 }
 
 .a-footer-box h2 {
@@ -459,7 +466,8 @@ input[type=reset] {
 }
 
 .a-box-account{
-    margin-top: 12vh ;
+    margin-top: 6vh;
+    
 }
 
 .a-media{
