@@ -438,7 +438,7 @@ input[type=reset] {
     line-height: 1.75;
     font-family: Calibri;
     font-size: 25px;
-    margin: 50px 35px 20px 10px;
+    margin: 50px 35px 40px 10px;
     padding-bottom: 5vh;
     display: flex;
 }
@@ -451,11 +451,11 @@ input[type=reset] {
 .a-footer-header{
     position: absolute;
     text-align: center;
-    height: 5;
+    height: 15vh;
 }
 
 .a-footer-box-contact{
-    margin-top: 6vh;
+    margin-top: 10vh;
     width: 10rem;
     margin-right: 3vw;
 }
@@ -466,8 +466,7 @@ input[type=reset] {
 }
 
 .a-box-account{
-    margin-top: 6vh;
-    
+    margin-top: 10vh;
 }
 
 .a-media{
