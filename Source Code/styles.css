@@ -11,12 +11,10 @@ body {
 }
 
 h1 {
-    font-family: helvetica, sans-serif;
     font-size: 40px;
 }
 
 h2 {
-    font-family: helvetica, sans-serif;
     font-size: 25px;
     margin: 0;
 }
@@ -24,14 +22,13 @@ h2 {
 * {
     margin: 0;
     padding: 0;
-    font-family: helvetica, serif;
+    font-family: helvetica, sans-serif;
 }
 
 .header {
-    background-color: lightgrey;
+    background-color: #3a475b;
     display: flex;
     align-items: center;
-    color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -69,7 +66,7 @@ h2 {
 
 
 .header-button{
-    color:black;
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,21 +76,22 @@ h2 {
     font-size: 1.4vw;
 }
 .header-button:hover{
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(81, 143, 146);
 }
+
 .logo-button
 .logo-button-landing{
     margin-left: 10px;
 }
-.logo-button:hover{
-    background-color: rgb(190, 190, 190);
-}
 .header-button:active{
-    color: white;
+    color: black;
+}
+.logo-button:hover{
+    background-color: rgb(81, 143, 146);
 }
 
 #header-button-active{
-    color: rgb(136, 6, 6)
+    color: rgb(107, 187, 191);
 }
 
 .logo{
@@ -316,10 +314,11 @@ input[type=reset] {
 .a-top{
     justify-content: center;
     align-items: center;
-    background-color: rgb(190, 190, 190);
+    color: white;
+    background-color: rgb(81, 143, 146);
     width: 100%;
     padding: 40px 0 40px 0;
-    height: 150px;
+    height: 46.4px;
     display: flex;
 }
 
