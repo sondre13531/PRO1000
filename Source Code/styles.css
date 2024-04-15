@@ -415,7 +415,7 @@ input[type=reset] {
 /* footer */ 
 
 .a-footer{
-    height: 35rem;
+    height: 37rem;
     width: 100%;
     background-color: rgb(195, 195, 195);
     padding-top: 10px;
@@ -438,7 +438,7 @@ input[type=reset] {
     font-family: Calibri;
     font-size: 25px;
     margin: 50px 35px 40px 10px;
-    padding-bottom: 5vh;
+    padding-bottom: 6vh;
     display: flex;
 }
 @media (max-width: 500px) {
@@ -450,7 +450,7 @@ input[type=reset] {
 .a-footer-header{
     position: absolute;
     text-align: center;
-    height: 15vh;
+    height: 17vh;
 }
 
 .a-footer-box-contact{
