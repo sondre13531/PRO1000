@@ -175,34 +175,9 @@ h2 {
     border-radius: 1vh;
     overflow-y: scroll;
     text-align: center;
+    margin-bottom: 10vh;
 }
 
-.locations-wrapper {
-    width: 100%;
-    height: 6vh;
-    margin: 0 0;
-    border-bottom: 0.5vh solid rgb(0, 0, 0);
-    text-align: center;
-    margin: 5vh 0;
-}
-
-.locations {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 60vh;
-    font-size: 2vh;
-    cursor: default;
-    padding-top: 4.5vh;
-    text-align: center;
-    font-size: medium;
-}
-
-.building {
-    width: 30rem;
-    margin-bottom: 2rem;
-}
 
 /* Membership, login, register */
 .infobox-wrapper {
@@ -438,7 +413,7 @@ input[type=reset] {
     font-family: Calibri;
     font-size: 25px;
     margin: 50px 35px 40px 10px;
-    padding-bottom: 6vh;
+    padding-bottom: 8vh;
     display: flex;
 }
 @media (max-width: 500px) {
