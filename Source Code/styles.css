@@ -438,7 +438,7 @@ input[type=reset] {
     font-family: Calibri;
     font-size: 25px;
     margin: 50px 35px 40px 10px;
-    padding-bottom: 6vh;
+    padding-bottom: 8vh;
     display: flex;
 }
 @media (max-width: 500px) {
