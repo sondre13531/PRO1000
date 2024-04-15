@@ -28,6 +28,7 @@ h2 {
     font-family: helvetica, sans-serif;
 }
 
+/* Navbar Start */
 .header {
     background-color: #3a475b;
     display: flex;
@@ -93,7 +94,9 @@ h2 {
     width: 15vw;
     display: flex;
 }
+/* End of navbar */ 
 
+/* Start of Landing page */
 .main-content {
     display: flex;
     flex-direction: row;
@@ -160,6 +163,7 @@ h2 {
     text-align: center;
     margin-bottom: 10vh;
 }
+/* end of Landing page */
 
 
 /* Membership, login, register */
@@ -266,6 +270,8 @@ input[type=reset] {
     font-size: 1.7rem;
     border-radius: 4px;
 }
+/* End of Membership, login, register */
+
 
 /* About Us */
 
@@ -368,10 +374,90 @@ input[type=reset] {
 #a-p{
     font-size: 16px;
 }
+/* End of About Us */
 
 
-/* footer */ 
+/* Start of Floor Plan */
+#fp {
+    text-align: center;
+    padding: 20px
+}
 
+.zaheading h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.zonesAmenities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%
+}
+
+.zoneContainer {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: space-around;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 5px solid darkgrey;
+}
+
+.fpimg {
+    max-width: 100%;
+    height: auto;
+    width: 640px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.floorPlan p {
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.floorPlan {
+    border-bottom: 5px solid darkgrey;
+}
+
+.zaheading p {
+    font-size: 32px;
+    padding: 20px;
+    text-align: center;
+}
+.zaheading {
+    padding-bottom: 40px;
+}
+
+
+.text {
+    font-size: 28px;
+    padding: 10px;
+    width: 30rem;
+    padding-left: 30px;
+}
+
+.floorPlanPage .floorPlan img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+/* End of Floor Plan */
+
+/* Start of Footer */ 
 .a-footer{
     height: 37rem;
     width: 100%;
@@ -438,3 +524,4 @@ input[type=reset] {
     justify-content: space-between;
     margin-top: 2rem;
 }
+/* End of footer */
