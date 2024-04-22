@@ -123,6 +123,11 @@ h2 {
     background-color: rgb(147, 170, 165);
     border-radius: 1vh;
 }
+
+#price{
+    font-weight: bold;
+}
+
 .services {
     text-align: center;
     padding: 1em;
