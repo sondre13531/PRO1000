@@ -455,6 +455,11 @@ input[type=reset] {
     margin-right: auto;
     padding: 50px;
 }
+@media min-width: 500px{
+    .floorPlanPage .floorPlan img{
+        
+    }
+}
 /* End of Floor Plan */
 
 /* Start of Footer */ 
