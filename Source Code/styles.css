@@ -214,6 +214,9 @@ h2 {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* End of Membership */
+
+/* Start of Register and Log in */
 .skjema {
     color: white;
     margin: 2rem 3rem;
@@ -273,7 +276,14 @@ input[type=reset] {
     font-size: 1.7rem;
     border-radius: 4px;
 }
-/* End of Membership, login, register */
+
+.popup{
+    position: absolute;
+    border: red;
+    z-index: 200;
+}
+
+/* End of Register and Log in */
 
 
 /* About Us */
@@ -456,13 +466,15 @@ input[type=reset] {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
+
 @media (min-width: 500px){
     .floorPlanPage .floorPlan img{
         padding: 50px;
     }
 }
+
 /* End of Floor Plan */
 
 /* Start of Footer */ 
