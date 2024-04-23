@@ -458,7 +458,7 @@ input[type=reset] {
     margin-right: auto;
     
 }
-@media min-width: 500px{
+@media (min-width: 500px){
     .floorPlanPage .floorPlan img{
         padding: 50px;
     }
@@ -481,18 +481,19 @@ input[type=reset] {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .a-footer-box{
-    width: 300px;
+    width: 450px;
     line-height: 1.75;
     font-family: Calibri;
-    font-size: 25px;
-    margin: 50px 35px 40px 10px;
+    font-size: 23px;
+    margin: 54px 10px 20px 10px;
     padding-bottom: 8vh;
     display: flex;
 }
+
 @media (max-width: 500px) {
     .a-footer-box{
         font-size: 20px;
@@ -507,8 +508,8 @@ input[type=reset] {
 
 .a-footer-box-contact{
     margin-top: 10vh;
-    width: 10rem;
-    margin-right: 3vw;
+    width: 9rem;
+    margin-right: 1vw;
 }
 
 .a-footer-box h2 {
