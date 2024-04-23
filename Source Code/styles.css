@@ -45,6 +45,47 @@ h2 {
     display: flex;
     justify-content: right;
 }
+#header-buttons-right{
+    flex-grow: 5;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+#hamburger{
+    display: none;
+}
+#burgerLinks{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(81, 143, 146);
+    width: 100%;
+    padding: 40px 0 40px 0;
+    height: 5rem;
+}
+
+@media (max-width: 850px) {
+    #header-buttons-left, #header-buttons-right{
+        display: none;
+    }
+
+    #hamburger{
+        flex-grow: 5;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+
+    }
+    #hamburger:hover{
+        cursor: pointer;
+    }
+    #hamburger *{
+        font-size: 40px;
+    }
+}
 
 
 .header-button{
@@ -173,6 +214,7 @@ h2 {
 .infobox-wrapper {
     color: white;
     margin: 1rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     background-color: rgb(118, 86, 101);
     border-radius: 6px;
@@ -292,12 +334,6 @@ input[type=button], input[type=submit], input[type=reset] {
     background-color: #3a475b;
     text-align: center;
     visibility: hidden;
-}
-
-@media (max-width: 600px) {
-    #header-buttons-left, #header-buttons-right{
-        visibility: hidden;
-    }
 }
 
 /* End of Register and Log in */
