@@ -34,7 +34,7 @@
     </div>
 
     <div class="skjema">
-        <h1 onclick="showPopUp()">Register as a user and choose your membership</h1>
+        <h1>Register as a user and choose your membership</h1>
         <br>
         <form>
             <label for="fname">First name:</label>
@@ -59,13 +59,14 @@
                 <option value="Meeting room">Meeting room</option>
             </select><br><br>
             
-            <input type="submit" value="Register">
+            <input type="button" value="Register" onclick="showPopUp()">
         </form>
     </div>
 
     <div id="popup">
-        <p>Login Sucessful</p>
-        <a href="landingPage.html"><button type="button">Click here</button></a>
+        <p>Registration sucessful</p>
+        <br>
+        <a href="landingPage.html"><input type="button" value="Go home"></a>
     </div>
 </body>
 <script src="script.js"></script>

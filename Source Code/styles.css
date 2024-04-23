@@ -263,9 +263,7 @@ select {
     background-color: #f1f1f1;
 }
 
-input[type=button],
-input[type=submit],
-input[type=reset] {
+input[type=button], input[type=submit], input[type=reset] {
     background-color: rgb(37, 138, 86);
     border: none;
     color: white;
@@ -280,17 +278,26 @@ input[type=reset] {
 #popup{
     font-size: 2rem;
     color: white;
-    position: absolute;
-    padding: 2rem;
-    width: 20vw;
-    height: 20vh;
-    margin: 15vh auto 15vh 37vw;
+    position: fixed;
     top: 20vh;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 2rem;
+    width: 15rem;
+    height: 10rem;
     border: 4px solid black;
+    border-radius: 4px;
     background-color: #3a475b;
-    z-index: 200;
     text-align: center;
     visibility: hidden;
+}
+
+@media (max-width: 600px) {
+    #header-buttons-left, #header-buttons-right{
+        visibility: hidden;
+    }
 }
 
 /* End of Register and Log in */
